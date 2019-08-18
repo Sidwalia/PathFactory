@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="224070" started-at="2019-08-18T20:36:11Z" finished-at="2019-08-18T20:39:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="224070" started-at="2019-08-18T20:36:11Z" finished-at="2019-08-18T20:39:55Z">
+      <class name="uiTesting.testRegisteredUsers">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="launchBrowser" is-config="true" duration-ms="16899" started-at="2019-08-18T20:36:11Z" finished-at="2019-08-18T20:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="forgotPasswordBackToLoginButton()[pri:1, instance:uiTesting.testRegisteredUsers@4501b7af]" name="forgotPasswordBackToLoginButton" duration-ms="2650" started-at="2019-08-18T20:36:28Z" finished-at="2019-08-18T20:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordBackToLoginButton -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="tearDown" is-config="true" duration-ms="3196" started-at="2019-08-18T20:36:30Z" finished-at="2019-08-18T20:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="launchBrowser" is-config="true" duration-ms="14486" started-at="2019-08-18T20:36:33Z" finished-at="2019-08-18T20:36:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="nonRegisteredUserValidPassword()[pri:2, instance:uiTesting.testRegisteredUsers@4501b7af]" name="nonRegisteredUserValidPassword" duration-ms="2036" started-at="2019-08-18T20:36:48Z" finished-at="2019-08-18T20:36:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonRegisteredUserValidPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="tearDown" is-config="true" duration-ms="3399" started-at="2019-08-18T20:36:50Z" finished-at="2019-08-18T20:36:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="launchBrowser" is-config="true" duration-ms="14320" started-at="2019-08-18T20:36:53Z" finished-at="2019-08-18T20:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="emailValidation()[pri:3, instance:uiTesting.testRegisteredUsers@4501b7af]" name="emailValidation" duration-ms="1762" started-at="2019-08-18T20:37:08Z" finished-at="2019-08-18T20:37:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailValidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="tearDown" is-config="true" duration-ms="3137" started-at="2019-08-18T20:37:09Z" finished-at="2019-08-18T20:37:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="launchBrowser" is-config="true" duration-ms="13877" started-at="2019-08-18T20:37:13Z" finished-at="2019-08-18T20:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="nonRegisteredUserInvalidPassword()[pri:4, instance:uiTesting.testRegisteredUsers@4501b7af]" name="nonRegisteredUserInvalidPassword" duration-ms="1850" started-at="2019-08-18T20:37:26Z" finished-at="2019-08-18T20:37:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonRegisteredUserInvalidPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="tearDown" is-config="true" duration-ms="3323" started-at="2019-08-18T20:37:28Z" finished-at="2019-08-18T20:37:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="launchBrowser" is-config="true" duration-ms="15649" started-at="2019-08-18T20:37:32Z" finished-at="2019-08-18T20:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="registeredUserInvalidPassword()[pri:5, instance:uiTesting.testRegisteredUsers@4501b7af]" name="registeredUserInvalidPassword" duration-ms="1684" started-at="2019-08-18T20:37:47Z" finished-at="2019-08-18T20:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registeredUserInvalidPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="tearDown" is-config="true" duration-ms="3509" started-at="2019-08-18T20:37:49Z" finished-at="2019-08-18T20:37:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="launchBrowser" is-config="true" duration-ms="14581" started-at="2019-08-18T20:37:52Z" finished-at="2019-08-18T20:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="blankUsernameBlankPassword()[pri:6, instance:uiTesting.testRegisteredUsers@4501b7af]" name="blankUsernameBlankPassword" duration-ms="1409" started-at="2019-08-18T20:38:07Z" finished-at="2019-08-18T20:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankUsernameBlankPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="tearDown" is-config="true" duration-ms="3608" started-at="2019-08-18T20:38:08Z" finished-at="2019-08-18T20:38:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="launchBrowser" is-config="true" duration-ms="14651" started-at="2019-08-18T20:38:12Z" finished-at="2019-08-18T20:38:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="forgotPasswordPageNavigation()[pri:7, instance:uiTesting.testRegisteredUsers@4501b7af]" name="forgotPasswordPageNavigation" duration-ms="1429" started-at="2019-08-18T20:38:27Z" finished-at="2019-08-18T20:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordPageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="tearDown" is-config="true" duration-ms="3306" started-at="2019-08-18T20:38:28Z" finished-at="2019-08-18T20:38:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="launchBrowser" is-config="true" duration-ms="14561" started-at="2019-08-18T20:38:31Z" finished-at="2019-08-18T20:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="forgotPasswordValidRegisteredUser()[pri:8, instance:uiTesting.testRegisteredUsers@4501b7af]" name="forgotPasswordValidRegisteredUser" duration-ms="3090" started-at="2019-08-18T20:38:46Z" finished-at="2019-08-18T20:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordValidRegisteredUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="tearDown" is-config="true" duration-ms="3516" started-at="2019-08-18T20:38:49Z" finished-at="2019-08-18T20:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="launchBrowser" is-config="true" duration-ms="14738" started-at="2019-08-18T20:38:53Z" finished-at="2019-08-18T20:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="forgotPasswordUnregisteredUser()[pri:9, instance:uiTesting.testRegisteredUsers@4501b7af]" name="forgotPasswordUnregisteredUser" duration-ms="2898" started-at="2019-08-18T20:39:07Z" finished-at="2019-08-18T20:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordUnregisteredUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="tearDown" is-config="true" duration-ms="3699" started-at="2019-08-18T20:39:10Z" finished-at="2019-08-18T20:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="launchBrowser" is-config="true" duration-ms="14883" started-at="2019-08-18T20:39:14Z" finished-at="2019-08-18T20:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="forgotPasswordInvalidEmail()[pri:10, instance:uiTesting.testRegisteredUsers@4501b7af]" name="forgotPasswordInvalidEmail" duration-ms="2858" started-at="2019-08-18T20:39:29Z" finished-at="2019-08-18T20:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordInvalidEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="tearDown" is-config="true" duration-ms="3422" started-at="2019-08-18T20:39:32Z" finished-at="2019-08-18T20:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="launchBrowser" is-config="true" duration-ms="14037" started-at="2019-08-18T20:39:35Z" finished-at="2019-08-18T20:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="validRegistereduserValidPassword()[pri:11, instance:uiTesting.testRegisteredUsers@4501b7af]" name="validRegistereduserValidPassword" duration-ms="2255" started-at="2019-08-18T20:39:49Z" finished-at="2019-08-18T20:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validRegistereduserValidPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uiTesting.testRegisteredUsers@4501b7af]" name="tearDown" is-config="true" duration-ms="3230" started-at="2019-08-18T20:39:51Z" finished-at="2019-08-18T20:39:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- uiTesting.testRegisteredUsers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
