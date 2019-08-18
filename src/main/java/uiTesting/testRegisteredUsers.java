@@ -146,7 +146,7 @@ public class testRegisteredUsers {
 	 @Test (priority=11)
      public void forgotPasswordBackToLoginButton(){
 	 ForgotPassword.click();         
-     driver.findElement(By.xpath("//a[@href='http://automationpractice.com/index.php?controller=authentication']")).click();;
+     driver.findElement(By.xpath("//a[@href='http://automationpractice.com/index.php?controller=authentication']")).click();
      String alreadyRegistered= driver.findElement(By.xpath("//*[@id='login_form']/h3")).getText();
      //Verify that the User is navigated back to the Sign-in Screen
      Assert.assertEquals("ALREADY REGISTERED?", alreadyRegistered); 
