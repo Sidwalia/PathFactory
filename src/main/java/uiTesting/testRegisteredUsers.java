@@ -17,6 +17,7 @@ public class testRegisteredUsers {
 	 public static WebElement Email;
      public static WebElement Password;
 	 public static WebElement SignInButton;
+	 public static WebElement ForgotPassword;
 	 String registeredUser= "siddharthwalia08@gmail.com";
 	 String nonRegisteredUser= "notaregistereduser@gmail.com";
 	 String validPassword= "TestPassword";
@@ -34,6 +35,7 @@ public class testRegisteredUsers {
 	 Email= driver.findElement(By.xpath("//input[@id='email']"));
 	 Password= driver.findElement(By.xpath("//input[@id='passwd']"));
 	 SignInButton= driver.findElement(By.xpath("//button[@id='SubmitLogin']"));
+	 ForgotPassword= driver.findElement(By.xpath("//a[@href='http://automationpractice.com/index.php?controller=password']"));
 	 }
 	 
 	 @Test (priority=1)
@@ -104,7 +106,7 @@ public class testRegisteredUsers {
 	 
 	 @Test (priority=7)
      public void forgotPasswordPageNavigation(){
-	 driver.findElement(By.xpath("//a[@href='http://automationpractice.com/index.php?controller=password']")).click();         
+     ForgotPassword.click();         
      String forgotPassword = driver.findElement(By.xpath("//*[@id='center_column']/div/h1")).getText();
      //Verify that the User navigated to the Forgot Password screen
      Assert.assertEquals("FORGOT YOUR PASSWORD?", forgotPassword); 
@@ -112,7 +114,7 @@ public class testRegisteredUsers {
 	 
 	 @Test (priority=8)
      public void forgotPasswordValidRegisteredUser(){
-	 driver.findElement(By.xpath("//a[@href='http://automationpractice.com/index.php?controller=password']")).click();         
+	 ForgotPassword.click();         
      driver.findElement(By.xpath("//*[@id='email']")).sendKeys(registeredUser);
      driver.findElement(By.xpath("//p[@class='submit']/button")).click();
      String successMessage = driver.findElement(By.xpath("//*[@id='center_column']/div/p")).getText();
@@ -123,7 +125,7 @@ public class testRegisteredUsers {
 	 
 	 @Test (priority=9)
      public void forgotPasswordUnregisteredUser(){
-	 driver.findElement(By.xpath("//a[@href='http://automationpractice.com/index.php?controller=password']")).click();         
+	 ForgotPassword.click();         
      driver.findElement(By.xpath("//*[@id='email']")).sendKeys(nonRegisteredUser);
      driver.findElement(By.xpath("//p[@class='submit']/button")).click();
      String errorMessage = driver.findElement(By.xpath("//*[@id='center_column']/div/div/ol/li")).getText();
@@ -133,7 +135,7 @@ public class testRegisteredUsers {
 	 
 	 @Test (priority=10)
      public void forgotPasswordInvalidEmail(){
-	 driver.findElement(By.xpath("//a[@href='http://automationpractice.com/index.php?controller=password']")).click();         
+	 ForgotPassword.click();         
      driver.findElement(By.xpath("//*[@id='email']")).sendKeys("invalidemailaddress@email");
      driver.findElement(By.xpath("//p[@class='submit']/button")).click();
      String errorMessageInvalidEmail = driver.findElement(By.xpath("//*[@id='center_column']/div/div/ol/li")).getText();
@@ -143,16 +145,15 @@ public class testRegisteredUsers {
 	 
 	 @Test (priority=11)
      public void forgotPasswordBackToLoginButton(){
-	 driver.findElement(By.xpath("//a[@href='http://automationpractice.com/index.php?controller=password']")).click();         
+	 ForgotPassword.click();         
      driver.findElement(By.xpath("//a[@href='http://automationpractice.com/index.php?controller=authentication']")).click();;
      String alreadyRegistered= driver.findElement(By.xpath("//*[@id='login_form']/h3")).getText();
      //Verify that the User is navigated back to the Sign-in Screen
      Assert.assertEquals("ALREADY REGISTERED?", alreadyRegistered); 
 	 }
 	 
-	
 	 @AfterMethod
-		public void tearDown() {
-			driver.quit();
+	 public void tearDown() {
+	 driver.quit();
 		}
 	}
